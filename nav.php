@@ -22,33 +22,24 @@
     <nav class="navbar navbar-expand-lg navbar  fixed-top sticky-nav" >
 
         <div class="container px-5">
-            <a class="navbar-brand"  href="index.php">job<span>mate</span></a>
-           
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
-          
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
-            <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Employeers</a></li>
-                    <li class="nav-item"><a class="nav-link" id="p" style="color:#000000" href="alljobss.php">Post A Job</a></li>
-                   
-                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"></i>Login</button>
+          <a class="navbar-brand"  href="index.php">job<span>mate</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
+              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Employeers</a></li>
+                      <li class="nav-item"><a class="nav-link" id="p" style="color:#000000" href="alljobss.php">Post A Job</a></li>
                     
-                    
-                    
-                    
-                   
-                </ul>
-                
+                      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"></i>Login</button>
+                  </ul>
             </div>
             
+          </div>
         </div>
     </nav>
 </div>
- <div id="id01" class="modal">
+                      <div id="id01" class="modal">
 
                         <form class="modal-content animate" action="/action_page.php" method="post">
                           <div class="imgcontainer">
@@ -80,40 +71,40 @@
 
 
                     
-                    <div id="id02" class="modal">
+                      <div id="id02" class="modal">
 
-                        <form class="modal-content animate" action="/action_page.php" method="post">
-                          <div class="imgcontainer">
-                            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                         
-                            <a class="navbar-brand" href="#!">Shob<span>job</span></a>
-                          </div>
-                      
-                          <div class="c1">
-                            <label for="email"><b>Email</b></label>
-                            <input type="text" placeholder="Enter email" name="email" required>
-
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-                      
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <label for="cpsw"><b>Confirm Password</b></label>
-                            <input type="password" placeholder="Retype Password" name="cpsw" required>
-                              
-                            <button type="submit">SignUp</button>
-                            <label>
-                              <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                          </div>
-                      
-                          <div class="container" style="background-color:#f1f1f1">
+                          <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                              <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
                           
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                          </div>
-                          
-                        </form>
+                              <a class="navbar-brand" href="#!">Shob<span>job</span></a>
+                            </div>
+                        
+                            <div class="c1">
+                              <label for="email"><b>Email</b></label>
+                              <input type="text" placeholder="Enter email" name="email" required>
+
+                              <label for="uname"><b>Username</b></label>
+                              <input type="text" placeholder="Enter Username" name="uname" required>
+                        
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+
+                              <label for="cpsw"><b>Confirm Password</b></label>
+                              <input type="password" placeholder="Retype Password" name="cpsw" required>
+                                
+                              <button type="submit">SignUp</button>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                            </div>
+                        
+                            <div class="container" style="background-color:#f1f1f1">
+                            
+                              <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                            
+                          </form>
                       </div>
                       
 
