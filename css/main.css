@@ -11,11 +11,11 @@ h1, h2, h3, h4, h5 {
 h2 {
   display: block;
   font-size: 1.5em;
+  font-weight: bold;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
 }
 a {
   color: white;
@@ -23,7 +23,7 @@ a {
 }
 p {
   font-family: 'Montserrat';
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .btn-success {
@@ -302,24 +302,18 @@ div#c2 {
   color: black;
   text-align: center; */
 }
-div#c4 {  
-  /* position: relative;
-  text-align: center;
-  color: white;
-  padding-bottom: 85px;
-  padding-top: 80px; */
-}
 
 .section4{
-  background: url('../assets/xx.png');
+  background: url('../assets/s4.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
+  min-height: 500px;
 
 }
 .section6{
-  background: url('../assets/yy.png');
+  background: url('../assets/s6.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -332,18 +326,11 @@ div#c4 {
   margin-top: 40%;
 }
 
-div#c6 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-div#c5 {
-margin: 20px;
-padding-bottom: 68px;
-}
+
+
 .center {
   position: absolute;
-  color: #000;
+  color: rgb(255, 254, 254);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -355,13 +342,9 @@ img#blur {
 }
 img.img-fluid.img-responsive.rounded.mb-4.mb-lg-0 {
   padding: 11px;
-  background-color: #f9fafb;
-  margin: 29px;
+  background-color: #fff;
 }
-.card {
-  margin-inline: -10 px;
 
-}
 p#c1 {
   padding: 13px;
   text-align: center;
@@ -386,11 +369,9 @@ div#c3 {
 
 div#s4 {
   text-align: center;
+
 }
-.card:hover {
-  color: #fefefe;
-  background-color:#C3D94C ;
-}
+
 /* Float four columns side by side */
 .column {
   float: left;
@@ -419,9 +400,166 @@ div#s4 {
 }
 
 /* Style the counter cards */
-.card {
+.div#c5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+ 
 }
+div#c5
+{ 
+  margin-bottom: 68px;
+
+}
+div.card#c5:hover {
+  color: #fefefe;
+  background-color:#C3D94C ;
+}
+div#company {
+  min-width: 150px;
+  height: 111px;
+  align-items: center;
+}
+div.card#company:hover {
+border-color: #C3D94C;
+}
+.imagebox {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.imagebox:hover {
+  color: #fefefe;
+  background-color:#C3D94C ;
+}
+
+div#c6 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 425px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 73%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+}
+@media screen and (max-width: 425px) {
+
+  div#s4 {
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    color: #e9ecef;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 16%);
+    z-index: 2;
+    width: 100%;
+}
+}
+@media screen and (min-width: 768px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 74%);
+
+  }
+}
+@media screen and (max-width: 768px) {
+  div#s4 {
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    color: #e9ecef;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -101%);
+    z-index: 2;
+    width: 100%;
+
+}
+}
+@media screen and (min-width: 1024px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 98%);
+
+  }
+  div#s4 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -154%);
+}
+
+}
+@media screen and (min-width: 1366px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 109%);
+
+  }
+  div#s4 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -240%);
+}
+}
+@media screen and (min-width: 1440px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 105%);
+  }
+  div#s4 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -275%);
+}
+}
+@media screen and (min-width: 2560px) {
+  div#c6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 12%);
+
+  }
+
+}
+
+a#b1 {
+  background-color: #201D1E;
+  color: #FFFFFF;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-inline: 57px;
+}
+a#b6 {
+  color: white;
+}
+
