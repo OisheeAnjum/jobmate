@@ -4,20 +4,45 @@
             <!-- Heading Row-->
             <div class="row gx-4 gx-lg-5 align-items-center my-5 hero-section" id="c1">
                 <div class="col-lg-6 col-md-6">
-                    <h2 class="font-weight-light text-capitalize">
+                    <div class="class" id="s1content">
+                        <h2 class="font-weight-light text-capitalize">
+                            
+                        Get Your Dream Job <br> Through Job<span class="hl-text">Mate</span></h2>
+                        <p ><b>We have someting big for you who want to level up. <br>Find the
+                                right fit and start your career.</b>
+                        </p>
+                        <a href="details.php" class="btn btn-success" id="b1">Register</a>   
+                    </div>
+                    <div class="topnav" id="myTopnav">
+                        <a href="#home" class="active">All Categories&nbsp; &nbsp; <img src="assets/down.png" alt=""></a>
                         
-                    Get Your Dream Job <br> Through Job<span class="hl-text">Mate</span></h2>
-                    <p ><b>We have someting big for you who want to level up. <br>Find the
-                            right fit and start your career.</b>
-                    </p>
-                    <a href="details.php" class="btn btn-success" id="b1">Register</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">Location  &nbsp; &nbsp; 
+                            <img src="assets/loc.png" alt="">
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                        <a href="#about">Keyword&nbsp; &nbsp; <img src="assets/search.png" alt=""></a>
+                        
+                    </div>
                 </div>
+                
                 <div class="col-lg-6 col-md-6">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Rectangle 3.png" />
+                    <div class="d-none d-md-block">
+                        <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Rectangle 3.png" />
+                    </div>  
+                    <a id="overlaybtn" href="index.php" class="btn btn-success">Search</a>   
                 </div>
+
+
             </div>
         </div>
     </section>
+   
     <section class="section2">
         <div class="row gx-4 gx-lg-5 align-items-center my-5" id="c2">
             <div class="col-lg-1 col-md-1 col-1"> </div>  
@@ -139,8 +164,8 @@
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card" id ="c5">
                         <div class="imagebox">
-                            <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/edu.png" />
-                            <p id="c1">Education & Training</p>
+                            <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/01.png" />
+                            <p id="c1">Education &<br>Training</p>
                         </div>   
                             
                         </div>
@@ -148,40 +173,40 @@
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card"id ="c5">
                         <div class="imagebox">
-                            <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/human.png" />
-                            <p id="c1">Education & Training</p>
+                            <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/02.png" />
+                            <p id="c1">Human<br>Resource</p>
                         </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card"id ="c5">
                             <div class="imagebox">
-                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/it.png" />
-                                <p id="c1">Education & Training</p>
+                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/03.png" />
+                                <p id="c1">Financial<br>Organization</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card"id ="c5">
                             <div class="imagebox">
-                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/med.png" />
-                                <p id="c1">Education & Training</p>
+                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/04.png" />
+                                <p id="c1">IT &<br>Telecommunication</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card"id ="c5">
                             <div class="imagebox">
-                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/business.png" />
-                                <p id="c1">Education & Training</p>
+                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/05.png" />
+                                <p id="c1">Business<br>Development</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
                         <div class="card"id ="c5">
                             <div class="imagebox">
-                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/it.png" />
-                                <p id="c1">Education & Training</p>
+                                <img class="img-fluid img-responsive rounded mb-4 mb-lg-0" src="assets/06.png" />
+                                <p id="c1">Medical &<br>Pharma</p>
                             </div>
                         </div>
                     </div>
@@ -208,6 +233,15 @@
             
         </div>
     </section>
-    
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>    
 <?php  include("footer.php");?>
 
