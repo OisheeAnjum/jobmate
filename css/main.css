@@ -3,10 +3,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
 }
 h2 {
   display: block;
@@ -22,12 +22,16 @@ a {
   text-decoration: underline;
 }
 p {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato';
   font-size: 17px;
+  color: #201D1E;
+}
+p#s1text {
+  font-weight: 400;
 }
 
 .btn-success {
-    background-color: #c4d94c;
+    background-color: #C3D94C;
     color: black;
     border: none;
 }
@@ -35,6 +39,9 @@ p {
     color: #fff;
     background-color: #b2cc1e;
     border-color: #b2cc1e;    
+}
+a#logo {
+  font-weight: 700;
 }
 a#navreg {
   width: 115px;
@@ -54,10 +61,15 @@ nav.navbar.navbar-expand-lg a{
     line-height: inherit;
     white-space: nowrap;
     margin: 5px;
+    font-weight: 400;
 }
 a.navbar-brand {
   font-weight: bold;
   color: black;
+}
+img#drop {
+  width: 11px;
+  margin-left: 7px;
 }
 p#foot {
   color: white;
@@ -93,21 +105,24 @@ div#navbarSupportedContent {
 }
 a.nav-link.btn.btn-success.nav-action-button {
     margin-right: 15px;
-    background-color: #c4d94c;
+    background-color: #C3D94C;
     border: none;
 }
 .nav{
   z-index: 1;
   padding-left: 2px;
 }
-
+a#nb {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
 .navbar-brand span {
-    color: #c4d94c;
+    color: #C3D94C;
 }
 
 span.hl-text {
-    background: rgb(196,217,76);
-    background: linear-gradient(0deg, rgba(196,217,76,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    color: #C3D94C;
 }
 
 
@@ -115,11 +130,11 @@ span.hl-text {
     color: #000000;
   }
   h2.j {
-    color: #c4d94c;
+    color: #C3D94C;
   }
 
 .btn {
-  background-color:#c4d94c;
+  background-color:#C3D94C;
   border: none;
   color: rgb(0, 0, 0);
   padding: 6px 30px;
@@ -135,7 +150,27 @@ span.hl-text {
 }
 /* .....................................*/
 
-
+p#s2ash {
+  color: #6D6E71;
+  font-style: bold;
+  font-weight: 700;
+}
+a#all {
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: #201D1E;
+  text-align: right;
+  padding-left: 30px;
+}
+a#all2 {
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  color: #201D1E;
+  text-align: right;
+  padding-left: 55px;
+}
 /* Full-width input fields,.................................... */
 input[type=text], input[type=password],input[type=text] {
   width: 100%;
@@ -148,7 +183,7 @@ input[type=text], input[type=password],input[type=text] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #c4d94c;
+  background-color: #C3D94C;
   color: rgb(0, 0, 0);
   padding: 3px 16px;
   font-size: 14px;
@@ -282,14 +317,6 @@ a#p {
   margin-inline: 6px;
 }
 
-
-
-
-a#all 
-{
-  color: black;
-  text-align: right;
-}
 div#c2 {
   text-align: center;
 }
@@ -433,8 +460,13 @@ p#c1 {
 .hero-section h2{
   font-size: 44px;
   font-weight: 900;
+  margin-bottom: 5px;
+  color: black;
 }
-
+img#arrow {
+  width: 20px;
+  padding-bottom: 2px;
+}
 div#s4 {
   text-align: center;
 
@@ -470,17 +502,15 @@ div#s4 {
 }
 
 /* Style the counter cards */
-.div#c5 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
- 
-}
-div#c5
-{ 
-  margin-bottom: 68px;
 
+.my-5 {
+  margin-top: 2rem !important;
+
+}
+.container.px-4.px-lg-5 {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 div.card#c5:hover {
   color: #fefefe;
@@ -500,7 +530,7 @@ border-color: #C3D94C;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 .imagebox:hover {
   color: #fefefe;
@@ -549,6 +579,7 @@ div#c6 {
     transform: translate(0%, -101%);
     z-index: 2;
     width: 100%;
+    
 
 }
 }
@@ -566,6 +597,7 @@ div#c6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -154%);
+    
 }
 .topnav {
   overflow: hidden;
@@ -573,6 +605,7 @@ div#c6 {
   min-width: 27rem;
   position: absolute;
   bottom: 0;
+  margin-bottom: 5rem;
 }
 }
 a#overlaybtn {
@@ -586,6 +619,10 @@ a#overlaybtn {
   font-size: 22px;
   color: white;
   font-weight: 500;
+  margin-bottom: 5rem;
+}
+a#b4 {
+  color: #FFFFFF;
 }
 @media screen and (min-width: 1366px) {
   div#c6 {
@@ -600,7 +637,27 @@ a#overlaybtn {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -240%);
+    transform: translate(-50%, -126%);
+    font-size: 28px;
+}
+a#b4 {
+  width: 250px;
+  height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  border-radius: 10px;
+}
+a#b6 {
+  color: white;
+  width: 334px;
+  height: 63px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  border-radius: 10px;
 }
 .topnav {
   overflow: hidden;
@@ -622,7 +679,7 @@ a#overlaybtn {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -275%);
+    transform: translate(-50%, -185%);
 }
 }
 @media screen and (min-width: 2560px) {
@@ -665,9 +722,50 @@ a#b1
 a#b6 
 {
   color: white;
+  background-color: #C3D94C;
 }
 .card
 {
   margin-bottom: 1rem;
 
+}
+ /*-------------------------footer-------------------------- */
+a#footer {
+  color: black;
+  text-decoration: none;
+}
+a#f {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+a#f1 {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 40px;
+}
+p#cplyright {
+    color: #6D6E71;
+}
+a#l1 {
+  color: #6D6E71;
+  text-decoration: none;
+}
+div#fl1 {
+  margin-top: 1rem;
+}
+section.section5 {
+  background-color: #E9E9E9;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.div#c5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 2rem;
+  border: none;
+ 
 }

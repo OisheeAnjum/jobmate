@@ -22,11 +22,13 @@
     <nav class="navbar navbar-expand-lg navbar  fixed-top sticky-nav" >
 
         <div class="container px-5">
-          <a class="navbar-brand"  href="index.php">job<span>mate</span></a>
+          <a class="navbar-brand" id="logo" href="index.php">job<span>mate</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
               <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
+              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Resources<img id="drop" src="assets/drop.png" /></a></a></li>
+              
                   <ul class="navbar-nav ms-auto">
                       <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Employeers</a></li>
                       <li class="nav-item"><a class="nav-link" id="p" style="color:#000000" href="alljobss.php">Post A Job</a></li>

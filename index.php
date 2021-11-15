@@ -8,8 +8,8 @@
                         <h2 class="font-weight-light text-capitalize">
                             
                         Get Your Dream Job <br> Through Job<span class="hl-text">Mate</span></h2>
-                        <p ><b>We have someting big for you who want to level up. <br>Find the
-                                right fit and start your career.</b>
+                        <p id="s1text">We have someting big for you who want to level up. <br>Find the
+                                right fit and start your career.
                         </p>
                         <a href="details.php" class="btn btn-success" id="b1">Register</a>   
                     </div>
@@ -17,25 +17,25 @@
                         <a href="#home" class="active">All Categories&nbsp; &nbsp; <img src="assets/down.png" alt=""></a>
                         
                         <div class="dropdown">
-                            <button class="dropbtn">Location  &nbsp; &nbsp; 
-                            <img src="assets/loc.png" alt="">
-                            </button>
+                            <button class="dropbtn"><img src="assets/loc.png" alt="">&nbsp; &nbsp; Location</button>
                             <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
                             </div>
                         </div> 
-                        <a href="#about">Keyword&nbsp; &nbsp; <img src="assets/search.png" alt=""></a>
+                        <a href="#"><img src="assets/search.png" alt="">&nbsp; &nbsp;Keyword </a>
                         
                     </div>
+                    
                 </div>
                 
                 <div class="col-lg-6 col-md-6">
                     <div class="d-none d-md-block">
                         <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/Rectangle 3.png" />
                     </div>  
-                    <a id="overlaybtn" href="index.php" class="btn btn-success">Search</a>   
+                    <a id="overlaybtn" href="index.php" class="btn btn-success">Search</a>
+
                 </div>
 
 
@@ -47,13 +47,13 @@
         <div class="row gx-4 gx-lg-5 align-items-center my-5" id="c2">
             <div class="col-lg-1 col-md-1 col-1"> </div>  
             <div class="col-lg-3 col-md-3 col-3"> 
-                <h2>900+<h2><p>Total jobs</p>
+                <h2>900+<h2><p id="s2ash">Total jobs</p>
             </div>  
             <div class="col-lg-3 col-md-3 col-3"> 
-                <h2>750+<h2><p>Companies</p>
+                <h2>750+<h2><p id="s2ash">Companies</p>
             </div>  
             <div class="col-lg-3 col-md-3 col-3"> 
-                <h2>120+<h2><p>New Jobs</p>
+                <h2>120+<h2><p id="s2ash">New Jobs</p>
             </div> 
             <div class="col-lg-2 col-md-2 col-2"> </div>  
         </div>
@@ -65,7 +65,7 @@
                         <h2>Research Companies!</h2>
                     </div>
                     <div class="col-lg-2">
-                    <br><a href="details.php" id="all"><b>Browse All Jobs </b><i class="fa fa-arrow-right"></i></a>          </div>
+                    <br><a href="details.php" id="all">Browse All Jobs&nbsp;&nbsp;<img id="arrow"  src="assets/arrow.png" /></a></div>
                                 
                     </div>
                 
@@ -136,14 +136,15 @@
     </section>  
 
     <section class="section4">
-           
-            <div class="row" id="c4">
-                <div class="col-lg-6"></div>
-                    <div class="col-lg-6" >
-                        <div class="txtimg1" id="s4">
-                            <h2 id= "f4">Find great talent.Post a job <br>& build your business.</h2>
-                            <a href="index.php" class="btn btn-success">Post Job</a> 
-                        </div> 
+           <div class="container">
+                <div class="row" id="c4">
+                    <div class="col-lg-6"></div>
+                        <div class="col-lg-6" >
+                            <div class="txtimg1" id="s4">
+                                <h2 id= "f4">Find great talent.Post a job <br>& build your business.</h2>
+                                <a id="b4" href="index.php" class="btn btn-success">Post Job</a> 
+                            </div> 
+                    </div>
                 </div>
             </div>
       
@@ -155,7 +156,7 @@
                     <h2>The Choice Is Yours</h2>
                 </div>
                 <div class="col-lg-2">
-                <br><a href="details.php" id="all"><b>Browse All Jobs </b><i class="fa fa-arrow-right"></i></a>          </div>
+                <br><a href="details.php" id="all2">Explore All&nbsp;&nbsp;<img id="arrow" src="assets/arrow.png" /></a></div>
                             
                 </div>
             
@@ -233,15 +234,15 @@
             
         </div>
     </section>
-    <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+<script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
 </script>    
 <?php  include("footer.php");?>
 
