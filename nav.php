@@ -25,15 +25,23 @@
           <a class="navbar-brand" id="logo" href="index.php">job<span>mate</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
-              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
-              <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Resources<img id="drop" src="assets/drop.png" /></a></a></li>
-              
+                  <ul class="navbar-nav ms-auto" id="leftelement">
+                    <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
+                  </ul>
+                  <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
+                  <form>
+                                <select id="resources" name="resources">
+                                <option value="#">Resources</option>
+                                <option value="ca">Canada</option>
+                                <option value="usa">USA</option>
+                                </select>
+                                </form>
+             
                   <ul class="navbar-nav ms-auto">
                       <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Employeers</a></li>
                       <li class="nav-item"><a class="nav-link" id="p" style="color:#000000" href="alljobss.php">Post A Job</a></li>
                     
-                      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"></i>Login</button>
+                      <button onclick="document.getElementById('id01').style.display='block'" id="navlogin"></i>Login</button>
                   </ul>
             </div>
             
@@ -47,12 +55,12 @@
                           <div class="imgcontainer">
                             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                           
-                            <a class="navbar-brand" href="#!">Shob<span>job</span></a>
+                            <a class="navbar-brand" href="#!">Job<span>Mate</span></a>
                           </div>
                       
                           <div class="c1">
                             <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
+                            <input type="text" id="modaltext" placeholder="Enter Username" name="uname" required>
                       
                             <label for="psw"><b>Password</b></label>
                             <input type="password" placeholder="Enter Password" name="psw" required>
@@ -103,7 +111,7 @@
                         
                             <div class="container" style="background-color:#f1f1f1">
                             
-                              <span class="psw">Forgot <a href="#">password?</a></span>
+                              <span class="psw"> <a href="#">Forgot password?</a></span>
                             </div>
                             
                           </form>

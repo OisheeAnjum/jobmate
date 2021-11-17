@@ -15,18 +15,27 @@
                             <a href="details.php" class="btn btn-success" id="b1">Register</a>   
                         </div>
                         <div class="topnav" id="myTopnav">
-                            <a href="#home" class="active">All Categories&nbsp; &nbsp; <img src="assets/down.png"></a>
-                            
+
                             <div class="dropdown">
-                                <button class="dropbtn"><img src="assets/loc.png" alt="">&nbsp; &nbsp; Location</button>
-                                <div class="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
-                                    <a href="#">Link 3</a>
-                                </div>
-                            </div> 
-                            <a href="#"><img src="assets/search.png">&nbsp; &nbsp;Keyword </a>
-                            
+                                    <form>
+                                    <select id="bigcat" name="ac">
+                                    <option value="au">All Categories</option>
+                                    <option value="ca">Canada</option>
+                                    <option value="usa">USA</option>
+                                    </select>
+                                    </form>
+
+                            </div>
+                            <div class="dropdown">
+                                <form class="example" action="/action_page.php">
+                                    <input id="bigloc" type="text" placeholder="Location.." name="search">
+                                </form>
+                            </div>
+                            <div class="dropdown">                             
+                            <form class="example" action="/action_page.php">
+                            <input id="bigsrh" type="text" placeholder="Search.." name="search">
+                            </form>
+                            </div>
                         </div>
                         
                     </div>
@@ -64,17 +73,17 @@
                             <div class="input"  id="ms2" >
                                 <form>
                                 <select id="country" name="country">
-                                <option value="au">Australia</option>
+                                <option value="au">All Categories</option>
                                 <option value="ca">Canada</option>
                                 <option value="usa">USA</option>
                                 </select>
                                 </form>
                             </div>
                             <form>
-                                <input type="text" name="search" placeholder="Keyword..">
+                                <input type="text" id="smloc" name="search" placeholder="Location..">
                             </form>
                             <form>
-                                <input type="text" name="search" placeholder="Location..">
+                                <input type="text" id="smsrh" name="search" placeholder="Keyword..">
                             </form>
                             
                 </div>
@@ -200,8 +209,10 @@
                 </div>
                 <div class="col-lg-6" >
                     <div class="txtimg1" id="s4">
-                        <h2 id= "f4">Find great talent.<br>Post a job <br>& build your business.</h2>
-                        <a id="b4" href="index.php" class="btn btn-success">Post Job</a> 
+                        <h2 id= "f4">Find great talent.<br>Post a job <br>& build your business.
+                            <br><a id="b4" href="index.php" class="btn btn-success">Post Job</a> 
+                        </h2>
+                        
                     </div> 
                 </div>
             </div>  

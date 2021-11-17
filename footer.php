@@ -69,11 +69,11 @@
 
           <img src="assets/line.png">
             <div class="row">
-              <div class="col-7 col-md-7 col-lg-7">
+              <div class="col-12 col-md-12 col-lg-7">
                 <p id="cplyright">© 2021 JobMate. All copyrights are reserved ™</p>
               </div>
 
-              <div class="col-5 col-md-5 col-lg-5" id="fl1">
+              <div class="col-12 col-md-12 col-lg-5" id="fl1">
               <a class="l1" id="l1" href="index.php">Terms & conditions  |  Site map  |  Privacy policy  |  Cookie policy</a><br>
 
               </div>
