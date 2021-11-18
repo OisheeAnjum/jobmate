@@ -591,7 +591,7 @@ div#c6 {
 
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   div#s4 {
     text-align: center;
 
@@ -609,12 +609,59 @@ h2#f4 {
   background-color: rgba(0,0,0, 0.4);
   padding: 20px;
 }
+input#smloc {
+  background-image: url('../assets/loc.png');
+}
+input#smsrh {
+  background-image: url('../assets/search.png');
+}
+input#bigloc {
+  float: left;
+  display: block;
+  color: #888;
+  background-image: url('../assets/loc.png');
+  text-align: left;
+  padding: 14 px 16 px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 11rem;
+  margin-top: 18px;
+  border: none;
+}
+input#bigsrh {
+float: left;
+display: block;
+color: #888;
+background-image: url('../assets/search.png');
+text-align: left;
+padding: 14 px 16 px;
+text-decoration: none;
+font-size: 17px;
+width: 10.5rem;
+margin-top: 18px;
+border: none;
+}
+select#bigcat {
+float: left;
+display: block;
+color: #888;
+text-align: left;
+padding: 14 px 16 px;
+text-decoration: none;
+font-size: 17px;
+width: 11rem;
+border: none;
+
+}
+}
+@media screen and (max-width: 768px) {
+
 div#mc1 {
   margin-top: 12rem !important;
   margin-bottom: 0rem !important;
 }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   div#c6 {
     position: relative;
     top: 50%;
@@ -636,12 +683,29 @@ div#mc1 {
   min-width: 27rem;
   position: absolute;
   bottom: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 4.6rem;
+}
+input#bigloc {
+
+  width: 9rem;
+  margin-top: 18px;
+  border: none;
+}
+input#bigsrh {
+
+width: 8rem;
+margin-top: 18px;
+border: none;
+}
+select#bigcat {
+
+width: 10rem;
+border: none;
+
 }
 nav.navbar.navbar-expand-lg.navbar {
   background-color: white;
   width: 100%;
-  padding-inline: 72px;
 }
 }
 
@@ -650,7 +714,7 @@ a#overlaybtn {
   bottom: 0;
   border-radius: 0;
   min-width: 8rem;
-  min-height: 53px;
+  min-height: 50px;
   /* text-align: left; */
   padding: 7px;
   font-size: 22px;
@@ -660,6 +724,7 @@ a#overlaybtn {
 }
 a#b4 {
   color: #FFFFFF;
+  margin-top: 1rem;
 }
 @media screen and (min-width: 1366px) {
   div#c6 {
@@ -707,16 +772,18 @@ a#b6 {
 nav.navbar.navbar-expand-lg.navbar {
   background-color: white;
   width: 100%;
-  padding-inline: 9rem;
 }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   div#c6 {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 105%);
+    transform: translate(-50%, 66%);
   }
+}
+@media screen and (min-width: 1440px) {
+
   div#s4 {
     text-align: center;
     position: relative;
@@ -780,11 +847,7 @@ a#b1
   padding-bottom: 14px;
   padding-inline: 57px;
 }
-a#b6 
-{
-  color: white;
-  background-color: #C3D94C;
-}
+
 .card
 {
   margin-bottom: 1rem;
@@ -899,51 +962,28 @@ input[type=text] {
   padding: 12px 20px 12px 40px;
 }
   }
-  input#smloc {
-    background-image: url('../assets/loc.png');
-  }
-  input#smsrh {
-    background-image: url('../assets/search.png');
-  }
+
+@media screen and (min-width: 1099px) {
   input#bigloc {
-    float: left;
-    display: block;
-    color: #888;
-    background-image: url('../assets/loc.png');
-    text-align: left;
-    padding: 14 px 16 px;
-    text-decoration: none;
-    font-size: 17px;
-    width: 11rem;
+
+    width: 9rem;
     margin-top: 18px;
     border: none;
 }
 input#bigsrh {
-  float: left;
-  display: block;
-  color: #888;
-  background-image: url('../assets/search.png');
-  text-align: left;
-  padding: 14 px 16 px;
-  text-decoration: none;
-  font-size: 17px;
-  width: 10.5rem;
+
+  width: 8rem;
   margin-top: 18px;
   border: none;
 }
 select#bigcat {
-  float: left;
-  display: block;
-  color: #888;
-  text-align: left;
-  padding: 14 px 16 px;
-  text-decoration: none;
-  font-size: 17px;
-  width: 11rem;
+
+  width: 10rem;
   border: none;
 
 }
-@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
 
   .topnav a {
     padding: 14px 0px;
@@ -975,7 +1015,29 @@ select#bigcat {
 }
 
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1200px) {
+
+    input#bigloc {
+    
+      width: 10.5rem;
+      margin-top: 18px;
+      border: none;
+    }
+    input#bigsrh {
+    
+    width: 11rem;
+    margin-top: 18px;
+    border: none;
+    }
+    select#bigcat {
+    
+    width: 11rem;
+    border: none;
+    
+    }
+
+    }
+  @media screen and (min-width: 1400px) {
 
   input#bigloc {
   
@@ -998,13 +1060,13 @@ select#bigcat {
   nav.navbar.navbar-expand-lg.navbar {
     background-color: white;
     width: 100%;
-    padding-inline: 6rem;
 }
   }
 
 input[type=text] {
   width: 100%;
   border-radius: 0px;
+  border: 2px solid #C3D94C;
   font-size: 16px;
   background-color: white;
   background-position: 10px 18px;
@@ -1017,4 +1079,24 @@ ul#leftelement {
 .ms-auto {
   margin-left: auto !important;
   align-items: center;
+}
+a#b6 {
+  color: white;
+  width: 334px;
+  height: 63px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  border-radius: 10px;
+}
+input#bigloc {
+
+  background-image: url('../assets/loc.png');
+
+}
+input#bigsrh {
+
+background-image: url('../assets/search.png');
+
 }

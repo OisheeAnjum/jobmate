@@ -18,9 +18,45 @@
 
 </head>
 <body>
+<div class="d-none d-md-none d-lg-block">
 <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar  fixed-top sticky-nav" >
-
+      
+        <div class="container px-5">
+          <a class="navbar-brand" id="logo" href="index.php">job<span>mate</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto" id="leftelement">
+                    <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Build Resume</a></li>
+                  </ul>
+                  <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Apply To Jobs</a></li>
+                  <form>
+                                <select id="resources" name="resources">
+                                <option value="#">Resources</option>
+                                <option value="ca">Canada</option>
+                                <option value="usa">USA</option>
+                                </select>
+                                </form>
+             
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link"style="color:#000000" href="index.php">Employeers</a></li>
+                      <li class="nav-item"><a class="nav-link" id="p" style="color:#000000" href="alljobss.php">Post A Job</a></li>
+                    
+                      <button onclick="document.getElementById('id01').style.display='block'" id="navlogin"></i>Login</button>
+                  </ul>
+            </div>
+            
+          </div>
+        </div>
+      
+      
+    </nav>
+</div>
+</div>
+<div class="d-block d-md-block d-lg-none">
+<div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar  fixed-top sticky-nav" >
+      
         <div class="container">
           <a class="navbar-brand" id="logo" href="index.php">job<span>mate</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span></button>
@@ -47,7 +83,10 @@
             
           </div>
         </div>
+      
+      
     </nav>
+</div>
 </div>
                       <div id="id01" class="modal">
 
