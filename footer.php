@@ -2,82 +2,82 @@
           
   <div class="footer-main">
     <div class="container">
-        <div class= "row">
-        <div class=" col-md-2 col-lg-3">
-              <a class="navbar-brand" id="foot" href="index.php">job<span>mate</span></a>
-              <p>The choice is yours,<br>we’ve got you covered</p>
-              <p><b>Corporate Office</b></p>
-              <p></p>
-              <p>New south point road, Block G,<br>Dhaka, Bangladesh.</p>
-              <a class="f" id="f" href="index.php">Contact with us</a><img src="assets/ex.png">
+      <div class= "row">
+          <div class=" col-md-2 col-lg-3">
+                <a class="navbar-brand" id="foot" href="index.php">job<span>mate</span></a>
+                <p>The choice is yours,<br>we’ve got you covered</p>
+                <p><b>Corporate Office</b></p>
+                <p></p>
+                <p>New south point road, Block G,<br>Dhaka, Bangladesh.</p>
+                <a class="f" id="f" href="index.php">Contact with us</a><img src="assets/ex.png">
+          </div>
+        <div class="col-md-2 col-lg-2">
+          <a class="footer" id="footer" href="index.php"><b>JOB SEEKER</b></a><br>
+          <a class="f1" id="f1" href="index.php">Browse Jobs</a><br>
+          <a class="f1" id="f1" href="index.php">Salary Tools</a><br>
+          <a class="f1" id="f1" href="index.php">Career Advice</a><br>
+          <a class="f1" id="f1" href="index.php">Company Profile</a><br>
+          <a class="f1" id="f1" href="index.php">Resume Builder</a><br>
         </div>
         <div class="col-md-2 col-lg-2">
-        <a class="footer" id="footer" href="index.php"><b>JOB SEEKER</b></a><br>
-        <a class="f1" id="f1" href="index.php">Browse Jobs</a><br>
-        <a class="f1" id="f1" href="index.php">Salary Tools</a><br>
-        <a class="f1" id="f1" href="index.php">Career Advice</a><br>
-        <a class="f1" id="f1" href="index.php">Company Profile</a><br>
-        <a class="f1" id="f1" href="index.php">Resume Builder</a><br>
-        </div>
-        <div class="col-md-2 col-lg-2">
-        <a class="footer" id="footer" href="index.php"><b>EMPLOYEER</b></a><br>
-        <a class="f1" id="f1" href="index.php">Post Jobs</a><br>
-        <a class="f1" id="f1" href="index.php">Documents</a><br>
-        <a class="f1" id="f1" href="index.php">Recruiting Solutions</a><br>
-        <a class="f1" id="f1" href="index.php">Onboarding</a><br>
-        <a class="f1" id="f1" href="index.php">Pricing</a><br>
-        <a class="f1" id="f1" href="index.php">Resources</a><br>
+          <a class="footer" id="footer" href="index.php"><b>EMPLOYEER</b></a><br>
+          <a class="f1" id="f1" href="index.php">Post Jobs</a><br>
+          <a class="f1" id="f1" href="index.php">Documents</a><br>
+          <a class="f1" id="f1" href="index.php">Recruiting Solutions</a><br>
+          <a class="f1" id="f1" href="index.php">Onboarding</a><br>
+          <a class="f1" id="f1" href="index.php">Pricing</a><br>
+          <a class="f1" id="f1" href="index.php">Resources</a><br>
         </div>
         <div class="col-md-3 col-lg-2">
-        <a class="footer" id="footer" href="index.php"><b>HELP CENTER</b></a><br>
-        <a class="f1" id="f1" href="index.php">About Us</a><br>
-        <a class="f1" id="f1" href="index.php">Terms of Use</a><br>
-        <a class="f1" id="f1" href="index.php">Customer Support</a><br>
-        <a class="f1" id="f1" href="index.php">Privacy policy</a><br>
-        <a class="f1" id="f1" href="index.php">Security & Services</a><br>
+          <a class="footer" id="footer" href="index.php"><b>HELP CENTER</b></a><br>
+          <a class="f1" id="f1" href="index.php">About Us</a><br>
+          <a class="f1" id="f1" href="index.php">Terms of Use</a><br>
+          <a class="f1" id="f1" href="index.php">Customer Support</a><br>
+          <a class="f1" id="f1" href="index.php">Privacy policy</a><br>
+          <a class="f1" id="f1" href="index.php">Security & Services</a><br>
         </div>
         <div class=" col-md-3 col-lg-3">
-        <a class="footer"  id="footer" href="index.php"><b>GET IN TOUCH</b></a>
-        <p>Follow Auto Desk</p>
-        <div class="row">
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/fb.png">
-            </div>
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/tw.png">
-            </div>
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/ig.png">
-            </div>
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/yt.png">
-            </div>
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/in.png">
-            </div>
-          </div>
+          <a class="footer"  id="footer" href="index.php"><b>GET IN TOUCH</b></a>
+          <p>Follow Auto Desk</p>
+              <div class="row">
+                <div class="col-1 col-md-2 col-lg-2">
+                  <img src="assets/fb.png">
+                </div>
+                <div class="col-1 col-md-2 col-lg-2">
+                  <img src="assets/tw.png">
+                </div>
+                <div class="col-1 col-md-2 col-lg-2">
+                  <img src="assets/ig.png">
+                </div>
+                <div class="col-1 col-md-2 col-lg-2">
+                  <img src="assets/yt.png">
+                </div>
+                <div class="col-1 col-md-2 col-lg-2">
+                  <img src="assets/in.png">
+                </div>
+              </div>
           <p>Download Apps</p>
-          <div class="row">
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/android.png">
+            <div class="row">
+              <div class="col-1 col-md-2 col-lg-2">
+              <img src="assets/android.png">
+              </div>
+              <div class="col-1 col-md-2 col-lg-2">
+              <img src="assets/apple.png">
             </div>
-            <div class="col-1 col-md-2 col-lg-2">
-            <img src="assets/apple.png">
-            </div>
-            </div>
+        </div>
       </div>
 
-          <img src="assets/line.png">
-            <div class="row">
-              <div class="col-12 col-md-12 col-lg-7">
-                <p id="cplyright">© 2021 JobMate. All copyrights are reserved ™</p>
-              </div>
+      <img src="assets/line.png">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-7">
+            <p id="cplyright">© 2021 JobMate. All copyrights are reserved ™</p>
+          </div>
 
-              <div class="col-12 col-md-12 col-lg-5" id="fl1">
-              <a class="l1" id="l1" href="index.php">Terms & conditions  |  Site map  |  Privacy policy  |  Cookie policy</a><br>
+          <div class="col-12 col-md-12 col-lg-5" id="fl1">
+          <a class="l1" id="l1" href="index.php">Terms & conditions  |  Site map  |  Privacy policy  |  Cookie policy</a><br>
 
-              </div>
-            </div>
+          </div>
+        </div>
     </div>
   </div>
 </footer>

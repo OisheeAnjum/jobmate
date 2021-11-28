@@ -948,7 +948,7 @@ div#mc1 {
   margin-bottom: 0rem !important;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) {
 input[type=text] {
   width: 100%;
   box-sizing: border-box;
@@ -1082,12 +1082,12 @@ ul#leftelement {
 }
 a#b6 {
   color: white;
-  width: 334px;
-  height: 63px;
+  width: 297px;
+  height: 54px;
   color: #FFFFFF;
   text-align: center;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 25px;
   border-radius: 10px;
 }
 input#bigloc {
